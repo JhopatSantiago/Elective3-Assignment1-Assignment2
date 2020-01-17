@@ -108,13 +108,6 @@
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Timer1.Interval = TimeSpan.FromSeconds(1).TotalMilliseconds
         Timer1.Start()
-        Button1.BackColor = Color.Red
-        Button2.BackColor = Color.Red
-        Button3.BackColor = Color.Red
-        Button4.BackColor = Color.Gray
-        Button5.BackColor = Color.Red
-        Button6.BackColor = Color.Red
-        Button7.BackColor = Color.Red
 
 
 
