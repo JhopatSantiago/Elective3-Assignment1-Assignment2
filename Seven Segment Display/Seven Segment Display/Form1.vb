@@ -22,6 +22,36 @@
             Button6.BackColor = Color.Gray
             Button7.BackColor = Color.Red
         End If
+
+        If counter = 3 Then
+            Button1.BackColor = Color.Red
+            Button2.BackColor = Color.Gray
+            Button3.BackColor = Color.Red
+            Button4.BackColor = Color.Red
+            Button5.BackColor = Color.Red
+            Button6.BackColor = Color.Red
+            Button7.BackColor = Color.Gray
+        End If
+
+        If counter = 4 Then
+            Button1.BackColor = Color.Gray
+            Button2.BackColor = Color.Red
+            Button3.BackColor = Color.Red
+            Button4.BackColor = Color.Red
+            Button5.BackColor = Color.Gray
+            Button6.BackColor = Color.Red
+            Button7.BackColor = Color.Gray
+        End If
+
+        If counter = 5 Then
+            Button1.BackColor = Color.Red
+            Button2.BackColor = Color.Red
+            Button3.BackColor = Color.Gray
+            Button4.BackColor = Color.Red
+            Button5.BackColor = Color.Red
+            Button6.BackColor = Color.Red
+            Button7.BackColor = Color.Gray
+        End If
     End Sub
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Timer1.Interval = TimeSpan.FromSeconds(1).TotalMilliseconds
