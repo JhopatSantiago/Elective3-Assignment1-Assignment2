@@ -5,66 +5,66 @@
             Button1.BackColor = Color.Red
             Button2.BackColor = Color.Red
             Button3.BackColor = Color.Red
-            Button4.BackColor = Color.Gray
+            Button4.BackColor = Color.Black
             Button5.BackColor = Color.Red
             Button6.BackColor = Color.Red
             Button7.BackColor = Color.Red
         End If
 
         If counter = 1 Then
-            Button1.BackColor = Color.Gray
-            Button2.BackColor = Color.Gray
+            Button1.BackColor = Color.Black
+            Button2.BackColor = Color.Black
             Button3.BackColor = Color.Red
-            Button4.BackColor = Color.Gray
-            Button5.BackColor = Color.Gray
+            Button4.BackColor = Color.Black
+            Button5.BackColor = Color.Black
             Button6.BackColor = Color.Red
-            Button7.BackColor = Color.Gray
+            Button7.BackColor = Color.Black
         End If
 
         If counter = 2 Then
             Button1.BackColor = Color.Red
-            Button2.BackColor = Color.Gray
+            Button2.BackColor = Color.Black
             Button3.BackColor = Color.Red
             Button4.BackColor = Color.Red
             Button5.BackColor = Color.Red
-            Button6.BackColor = Color.Gray
+            Button6.BackColor = Color.Black
             Button7.BackColor = Color.Red
         End If
 
         If counter = 3 Then
             Button1.BackColor = Color.Red
-            Button2.BackColor = Color.Gray
+            Button2.BackColor = Color.Black
             Button3.BackColor = Color.Red
             Button4.BackColor = Color.Red
             Button5.BackColor = Color.Red
             Button6.BackColor = Color.Red
-            Button7.BackColor = Color.Gray
+            Button7.BackColor = Color.Black
         End If
 
         If counter = 4 Then
-            Button1.BackColor = Color.Gray
+            Button1.BackColor = Color.Black
             Button2.BackColor = Color.Red
             Button3.BackColor = Color.Red
             Button4.BackColor = Color.Red
-            Button5.BackColor = Color.Gray
+            Button5.BackColor = Color.Black
             Button6.BackColor = Color.Red
-            Button7.BackColor = Color.Gray
+            Button7.BackColor = Color.Black
         End If
 
         If counter = 5 Then
             Button1.BackColor = Color.Red
             Button2.BackColor = Color.Red
-            Button3.BackColor = Color.Gray
+            Button3.BackColor = Color.Black
             Button4.BackColor = Color.Red
             Button5.BackColor = Color.Red
             Button6.BackColor = Color.Red
-            Button7.BackColor = Color.Gray
+            Button7.BackColor = Color.Black
         End If
 
         If counter = 6 Then
             Button1.BackColor = Color.Red
             Button2.BackColor = Color.Red
-            Button3.BackColor = Color.Gray
+            Button3.BackColor = Color.Black
             Button4.BackColor = Color.Red
             Button5.BackColor = Color.Red
             Button6.BackColor = Color.Red
@@ -73,12 +73,12 @@
 
         If counter = 7 Then
             Button1.BackColor = Color.Red
-            Button2.BackColor = Color.Gray
+            Button2.BackColor = Color.Black
             Button3.BackColor = Color.Red
-            Button4.BackColor = Color.Gray
-            Button5.BackColor = Color.Gray
+            Button4.BackColor = Color.Black
+            Button5.BackColor = Color.Black
             Button6.BackColor = Color.Red
-            Button7.BackColor = Color.Gray
+            Button7.BackColor = Color.Black
         End If
 
         If counter = 8 Then
@@ -98,7 +98,7 @@
             Button4.BackColor = Color.Red
             Button5.BackColor = Color.Red
             Button6.BackColor = Color.Red
-            Button7.BackColor = Color.Gray
+            Button7.BackColor = Color.Black
             counter = 0
         Else
             counter += 1

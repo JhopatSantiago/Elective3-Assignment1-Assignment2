@@ -39,7 +39,8 @@ Partial Class Form1
         'Button1
         '
         Me.Button1.Enabled = False
-        Me.Button1.ForeColor = System.Drawing.Color.Red
+        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button1.ForeColor = System.Drawing.Color.Transparent
         Me.Button1.Location = New System.Drawing.Point(100, 31)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(227, 44)
@@ -49,7 +50,8 @@ Partial Class Form1
         'Button2
         '
         Me.Button2.Enabled = False
-        Me.Button2.ForeColor = System.Drawing.Color.Red
+        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button2.ForeColor = System.Drawing.Color.Transparent
         Me.Button2.Location = New System.Drawing.Point(53, 74)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(42, 173)
@@ -59,7 +61,8 @@ Partial Class Form1
         'Button3
         '
         Me.Button3.Enabled = False
-        Me.Button3.ForeColor = System.Drawing.Color.Red
+        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button3.ForeColor = System.Drawing.Color.Transparent
         Me.Button3.Location = New System.Drawing.Point(333, 74)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(41, 173)
@@ -68,8 +71,10 @@ Partial Class Form1
         '
         'Button4
         '
+        Me.Button4.Cursor = System.Windows.Forms.Cursors.Arrow
         Me.Button4.Enabled = False
-        Me.Button4.ForeColor = System.Drawing.Color.Red
+        Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button4.ForeColor = System.Drawing.Color.Transparent
         Me.Button4.Location = New System.Drawing.Point(100, 245)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(227, 45)
@@ -78,8 +83,10 @@ Partial Class Form1
         '
         'Button5
         '
+        Me.Button5.Cursor = System.Windows.Forms.Cursors.Arrow
         Me.Button5.Enabled = False
-        Me.Button5.ForeColor = System.Drawing.Color.Red
+        Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button5.ForeColor = System.Drawing.Color.Transparent
         Me.Button5.Location = New System.Drawing.Point(100, 443)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(227, 46)
@@ -88,8 +95,10 @@ Partial Class Form1
         '
         'Button6
         '
+        Me.Button6.Cursor = System.Windows.Forms.Cursors.Arrow
         Me.Button6.Enabled = False
-        Me.Button6.ForeColor = System.Drawing.Color.Red
+        Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button6.ForeColor = System.Drawing.Color.Transparent
         Me.Button6.Location = New System.Drawing.Point(333, 289)
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(41, 157)
@@ -98,8 +107,10 @@ Partial Class Form1
         '
         'Button7
         '
+        Me.Button7.Cursor = System.Windows.Forms.Cursors.Arrow
         Me.Button7.Enabled = False
-        Me.Button7.ForeColor = System.Drawing.Color.Red
+        Me.Button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button7.ForeColor = System.Drawing.Color.Transparent
         Me.Button7.Location = New System.Drawing.Point(53, 289)
         Me.Button7.Name = "Button7"
         Me.Button7.Size = New System.Drawing.Size(41, 157)
@@ -160,9 +171,9 @@ Partial Class Form1
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
+        Me.Cursor = System.Windows.Forms.Cursors.Arrow
         Me.MaximizeBox = False
         Me.Name = "Form1"
-        Me.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide
         Me.Text = "Seven Segment Display"
         Me.ResumeLayout(False)
         Me.PerformLayout()
