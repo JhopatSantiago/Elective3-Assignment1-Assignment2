@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Form1
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,8 +20,9 @@ Partial Class Form1
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
@@ -29,11 +30,14 @@ Partial Class Form1
         Me.Button5 = New System.Windows.Forms.Button()
         Me.Button6 = New System.Windows.Forms.Button()
         Me.Button7 = New System.Windows.Forms.Button()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
+        Me.Timer2 = New System.Windows.Forms.Timer(Me.components)
         Me.SuspendLayout()
         '
         'Button1
         '
         Me.Button1.Enabled = False
+        Me.Button1.ForeColor = System.Drawing.Color.Red
         Me.Button1.Location = New System.Drawing.Point(95, 33)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(227, 23)
@@ -43,6 +47,7 @@ Partial Class Form1
         'Button2
         '
         Me.Button2.Enabled = False
+        Me.Button2.ForeColor = System.Drawing.Color.Red
         Me.Button2.Location = New System.Drawing.Point(68, 66)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(22, 162)
@@ -52,6 +57,7 @@ Partial Class Form1
         'Button3
         '
         Me.Button3.Enabled = False
+        Me.Button3.ForeColor = System.Drawing.Color.Red
         Me.Button3.Location = New System.Drawing.Point(328, 66)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(22, 162)
@@ -61,6 +67,7 @@ Partial Class Form1
         'Button4
         '
         Me.Button4.Enabled = False
+        Me.Button4.ForeColor = System.Drawing.Color.Red
         Me.Button4.Location = New System.Drawing.Point(95, 234)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(227, 23)
@@ -70,6 +77,7 @@ Partial Class Form1
         'Button5
         '
         Me.Button5.Enabled = False
+        Me.Button5.ForeColor = System.Drawing.Color.Red
         Me.Button5.Location = New System.Drawing.Point(95, 416)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(227, 23)
@@ -79,6 +87,7 @@ Partial Class Form1
         'Button6
         '
         Me.Button6.Enabled = False
+        Me.Button6.ForeColor = System.Drawing.Color.Red
         Me.Button6.Location = New System.Drawing.Point(328, 256)
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(22, 162)
@@ -88,11 +97,17 @@ Partial Class Form1
         'Button7
         '
         Me.Button7.Enabled = False
+        Me.Button7.ForeColor = System.Drawing.Color.Red
         Me.Button7.Location = New System.Drawing.Point(67, 256)
         Me.Button7.Name = "Button7"
         Me.Button7.Size = New System.Drawing.Size(22, 162)
         Me.Button7.TabIndex = 6
         Me.Button7.UseVisualStyleBackColor = True
+        '
+        'Timer1
+        '
+        Me.Timer1.Enabled = True
+        Me.Timer1.Interval = 1000
         '
         'Form1
         '
@@ -120,4 +135,6 @@ Partial Class Form1
     Friend WithEvents Button5 As Button
     Friend WithEvents Button6 As Button
     Friend WithEvents Button7 As Button
+    Public WithEvents Timer1 As Timer
+    Friend WithEvents Timer2 As Timer
 End Class
