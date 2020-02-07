@@ -1,8 +1,0 @@
------------------------------------------\n
-NameJhopat
-Age12
-AddressCalumpang
------------------------------------------\n
-NameJhopat
-Age12
-AddressCalumpang
